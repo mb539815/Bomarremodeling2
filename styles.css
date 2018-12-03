@@ -43,4 +43,10 @@ header div.header_search {
 }
 nav {
   text-align:center;
+  color: #FFFFF
+}
+img.afterbathroom{
+  width:50%;
+  float:left;
+  padding-right: 10px;
 }
