@@ -13,6 +13,9 @@
 
     background-color: #29251E;
   }
+  body {
+    background-color: #FFFFFF
+  }
 
     header div.header_logo {
       padding-top: 20px;
