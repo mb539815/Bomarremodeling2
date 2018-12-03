@@ -41,12 +41,10 @@ header div.header_search {
   padding-right: 30px;
 
 }
-nav {
-  text-align:center;
-  color: #FFFFF
+ div.afterbathroom{
+  width:292px;
+  height:50px;
 }
-img.afterbathroom{
-  width:50%;
-  float:left;
-  padding-right: 10px;
+nav {
+  text-align: center
 }
