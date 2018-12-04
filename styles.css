@@ -91,4 +91,29 @@ div.text2 {
   padding-left: 600px;
   color: #6C6865;
   text-align: left;
+  bottom:400px;
+}
+div.abouttext{
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 600px;
+  bottom:400px;
+}
+div.whatido{
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 1.7em;
+  padding-left: 600px;
+  color: #6C6865;
+  text-align: left;
+  bottom: 370px;
+
+}
+div.whatidotext{
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 600px;
+  bottom:360px;
+}
+div p.secondline1{
+  bottom:15px;
 }
