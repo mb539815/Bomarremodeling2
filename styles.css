@@ -4,9 +4,6 @@
 }
 
   header {
-    /* display is a grid, each entity contains is a "block" in the grid */
-
-    /* this is 3 columns */
     padding-left: 10px;
     padding-bottom:10px;
     margin-bottom:10px;
@@ -29,22 +26,21 @@
       height:50px;
     }
 header p {
-  padding-left: 35px;
+  padding-left: 60px;
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color:#FFFFFF;
 }
 header p.secondline {
   margin-left: 10px;
+  padding-bottom: 20px;
 }
 
 header div.header_search {
-  /* this tells the browser to "span" the grid columns */
-  /* grid-column-start: 1; */
-  /* notice the grid-column-end is number of columns + 1 */
-  /* grid-column-end: 4; */
   text-align:right;
   padding-right: 30px;
+  padding-top: 78px;
+  color: #FFFFFF;
 
 }
  div.afterbathroom{
@@ -56,18 +52,43 @@ nav {
 }
 nav a {
   color:#FFFFFF;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  margin-left: 20px;
 }
 nav a:hover, nav a.active{
   color: #BCBCBC;
   text-decoration: none;
 }
+
 .nav{
 display: flex;
 align-items: center;
 justify-content: center;
+padding-top: 40px;
 color:#FFFFFF;
 }
 div.container2{
-  width: 50%;
+  width: 40%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+div.text{
+  font-family: 'Noto Sans SC', sans-serif;
+  color: #6C6865;
+  font-size:2.0em;
+  padding-top: 60px;
+  padding-left: 370px;
+}
+div.aboutphoto img{
+  width: 175%;
+  padding-top: 100px;
+  padding-left: 130px;
+
+}
+div.text2 {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 1.7em;
+  padding-left: 600px;
+  color: #6C6865;
+  text-align: left;
 }
