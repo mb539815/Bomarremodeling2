@@ -114,6 +114,12 @@ div.whatidotext{
   padding-left: 600px;
   bottom:360px;
 }
-div p.secondline1{
-  bottom:15px;
+div.secondline1{
+  bottom:20px;
+}
+div.thirdline{
+  bottom:20px;
+}
+div.fourthline{
+  bottom: 20px;
 }
