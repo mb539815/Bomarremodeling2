@@ -27,3 +27,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 
 }
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
