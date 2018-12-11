@@ -39,7 +39,7 @@ header p.secondline {
 header div.header_search {
   text-align:right;
   padding-right: 40px;
-  padding-top: 78px;
+  padding-top: 110px;
   color: #FFFFFF;
 }
  div.afterbathroom{
@@ -76,10 +76,10 @@ div.text{
   color: #6C6865;
   font-size:2.0em;
   padding-top: 60px;
-  padding-left: 370px;
+  padding-left: 350px;
 }
 div.aboutphoto img{
-  width: 175%;
+  width: 185%;
   padding-top: 100px;
   padding-left: 130px;
 
@@ -90,13 +90,13 @@ div.text2 {
   padding-left: 600px;
   color: #6C6865;
   text-align: left;
-  bottom:400px;
+  bottom:430px;
 }
 div.abouttext{
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   padding-left: 600px;
-  bottom:400px;
+  bottom:425px;
 }
 div.whatido{
   font-family: 'Noto Sans SC', sans-serif;
@@ -104,14 +104,14 @@ div.whatido{
   padding-left: 600px;
   color: #6C6865;
   text-align: left;
-  bottom: 370px;
+  bottom: 390px;
 
 }
 div.whatidotext{
   font-size: 1.2em;
   font-family: 'Open Sans', sans-serif;
   padding-left: 600px;
-  bottom:360px;
+  bottom:385px;
 }
 div.secondline1{
   bottom:20px;
@@ -123,7 +123,7 @@ div.fourthline{
   bottom: 20px;
 }
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+.container4 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
@@ -154,10 +154,89 @@ input[type=submit]:hover {
     border-radius: 5px;
     border-color:#f2f2f2;
     padding-bottom: 350px;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 50px;
 }
 .row {
   margin: 15px;
+}
+.imgcontainer {
+  padding-left: 110px;
+
+}
+.img-comp-slider {
+  margin-top: 220px;
+  margin-left: 110px;
+
+}
+.imgcontainer2 {
+  padding-left: 450px;
+}
+.img-comp-slider2 {
+  margin-top: 220px;
+  margin-left: 150px;
+
+}
+<style>
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+  </style>
+}
+.multi-item-carousel {
+  overflow: hidden;
+}
+.multi-item-carousel img {
+  height: auto;
+  width: 100%;
+}
+.multi-item-carousel .carousel-control.left,
+.multi-item-carousel .carousel-control.right {
+    background: rgba(255, 255, 255, 0.3);
+    width: 25%;
+}
+.multi-item-carousel .carousel-inner {
+  width: 150%;
+  left: -25%;
+}
+.carousel-inner > .item.next,
+.carousel-inner > .item.active.right {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+}
+.carousel-inner > .item.prev,
+.carousel-inner > .item.active.left {
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+}
+.item__third {
+  float: left;
+  width: 33.33333333%;
 }
