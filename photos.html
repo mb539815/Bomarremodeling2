@@ -1,6 +1,7 @@
 <!doctype html>
 <HTML Lang="en-US">
 <head>
+  <title> Bomar Remodeling </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="java.js">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -9,6 +10,8 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:900" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="sliders.css">
+
   </head>
 <body>
   <header>
@@ -42,8 +45,6 @@
 </div>
 </header>
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <script>
@@ -124,27 +125,29 @@ function initComparisons() {
   }
 }
 </script>
-</head>
-<body>
-
-
-
-<div class="imgcontainer">
-  <div class="img-comp-img">
-    <img src="images1/dadprofile.jpg" width="300" height="200">
-  </div>
-  <div class="img-comp-img img-comp-overlay">
-    <img src="images1/beforeafter.jpg" width="300" height="200">
-  </div>
-</div>
-<div class="imgcontainer2">
-  <div class="img-comp-img">
-    <img src="images1/dadprofile.jpg" width="300" height="200">
-  </div>
-  <div class="img-comp-img img-comp-overlay">
-    <img src="images1/beforeafter.jpg" width="300" height="200">
-  </div>
-</div>
+<!-- code from https://www.w3schools.com/howto/howto_js_image_comparison.asp -->
+ <div class="row">
+   <div class="col-sm-6">
+     <div class="img-comp-container">
+       <div class="img-comp-img">
+         <img src="images1/afterbathroom.jpg" width="300" height="200">
+       </div>
+       <div class="img-comp-img img-comp-overlay">
+         <img src="images1/beforeafter.jpg" width="300" height="200">
+       </div>
+     </div>
+ </div><!-- end row -->
+ <div class="col-sm-6">
+     <div class="img-comp-container">
+       <div class="img-comp-img">
+         <img src="images1/afterbathroom.jpg" width="300" height="200">
+       </div>
+       <div class="img-comp-img img-comp-overlay">
+         <img src="images1/beforeafter.jpg" width="300" height="200">
+       </div>
+     </div>
+   </div>
+ </div><!-- end row -->
 
 <script>
 /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
